@@ -1,7 +1,7 @@
 # Hackear Governo
 
 Este pacote é feito para você que sempre quis "hackear" o governo igual nos filmes da Sessão da Tarde.  
-Para uso comum:
+Agora você pode! Para isso basta digitar:
 
 ```bash
 npx hackear-governo
