@@ -29,7 +29,7 @@ module.exports = {
       'si',
     ];
     
-    return yesList.contains(answer.toLowerCase().trim());
+    return yesList.includes(answer.toLowerCase().trim());
   },
 
   loading(message, size = 50, cursor = 0) {

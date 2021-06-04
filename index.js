@@ -8,8 +8,8 @@ const fn = require('./functions.js');
   await fn.loading('Quebrando senhas super seguras');
 
   fn.ask('Hackear o governo e roubar informações? (S/n): ')
-    .then(async must => {
-      if (must) {
+    .then(async answer => {
+      if (fn.answerIsYes(answer)) {
         await fn.loading('\nHackeando o governo, aguarde');
 
         console.log('O GOVERNO FOI HACKEADO. VOCÊ TEM 1 HORA PARA FUGIR DO PAÍS.\n')
