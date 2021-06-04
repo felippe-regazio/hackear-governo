@@ -1,0 +1,21 @@
+{
+  "name": "invadir-governo",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "bin": {
+    "hackear-governo": "./index.js"
+  },
+  "description": "Hackeia o governo igual nos filmes da Sessão da Tarde",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "invadir",
+    "governo",
+    "hacker",
+    "hackerman"
+  ],
+  "author": "Felippe Regazio",
+  "license": "ISC"
+}
